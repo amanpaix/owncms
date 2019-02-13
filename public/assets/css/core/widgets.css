@@ -1,0 +1,262 @@
+.single-widgets {
+    margin-bottom: 50px;
+}
+
+.single-widgets:last-child {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.single-widgets ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-widgets h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.single-widgets h3::after {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.single-widgets h3 span {
+    background: #ffffff none repeat scroll 0 0;
+    padding: 0 10px;
+    position: relative;
+    z-index: 9;
+}
+
+/*----------------------
+    SEARCH
+-----------------------*/
+.single-widgets .search-form {
+    border: 1px solid #ddd;
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.single-widgets .search-form input {
+    border: 0 none;
+    height: 100%;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: calc(100% - 50px);
+}
+
+.single-widgets .search-form button {
+  border: 0 none;
+  height: 50px;
+  padding-top: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 50px;
+}
+
+.single-widgets .search-form button:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+
+/*---------------------
+    CATEGORIES
+---------------------*/
+.widget_categories ul li,
+.widget_pages ul li,
+.widget_nav_menu ul li {
+    border-top: 1px solid #dfdfdf;
+}
+
+.widget_categories ul li:first-child,
+.widget_pages ul li:first-child,
+.widget_nav_menu ul li:first-child {
+    border: 0 none;
+}
+
+.widget_categories ul li li,
+.widget_pages ul li li,
+.widget_nav_menu ul li li {
+    border: 0 none;
+    padding-left: 15px;
+}
+
+.widget_categories ul li a,
+.widget_pages ul li a,
+.widget_nav_menu ul li a {
+    display: block;
+    padding: 8px 0;
+}
+
+.widget_categories ul li a span,
+.widget_pages ul li a span,
+.widget_nav_menu ul li a span {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-radius: 50%;
+    float: right;
+    font-size: 13px;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+}
+
+/*----------------------
+    RECENT
+-----------------------*/
+
+.widget_recent_entries li {
+    border-top: 1px solid #d3d3d3;
+    padding: 10px 0;
+}
+
+.widget_recent_entries li:first-child {
+    border: 0 none;
+}
+
+.single-widgets.widget_recent_entries {}
+
+.widget_recent_entries li a {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.widget_recent_entries li .post-date {
+    font-size: 14px;
+}
+
+/*-----------------------
+    RECENT THUMB
+-----------------------*/
+
+.widget_post_with_thumb li {
+    border-top: 1px solid #d3d3d3;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.widget_post_with_thumb li:first-child {
+    border: 0 none;
+}
+
+.widget_post_with_thumb li img {
+    width: 80px;
+}
+
+.widget_post_with_thumb li .post-date {
+    display: block;
+    font-size: 14px;
+}
+
+.widget_post_with_thumb li a {
+    font-weight: 500;
+}
+
+/*---------------------
+    ARCHIVE
+----------------------*/
+
+.widget_archive li {
+    border-top: 1px solid #dfdfdf;
+}
+
+.widget_archive li:first-child {
+    border: 0 none;
+}
+
+.widget_archive li a {
+    display: block;
+    padding: 10px 0;
+}
+
+.widget_archive li a span {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border-radius: 50%;
+    float: right;
+    height: 25px;
+    text-align: center;
+    width: 25px;
+}
+
+/*---------------------
+    INSTAGRAM OR GALLEY
+-----------------------*/
+.widget_instagram {
+    overflow: hidden;
+}
+
+.widget_instagram li {
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+}
+
+.widget_instagram ul {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+/*---------------------
+    POST SHARE
+-----------------------*/
+.widget_post_share {
+    text-align: center;
+}
+
+.widget_post_share li {
+    display: inline-block;
+}
+
+.widget_post_share li a {
+    border: 1px solid;
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    margin: 0 5px;
+    padding-top: 6px;
+    text-align: center;
+    width: 40px;
+}
+
+.widget_post_share li a:hover {
+    background: #333 none repeat scroll 0 0;
+    border-color: #333;
+    color: #fff;
+}
+
+/*-------------------
+    TAGCLOUD
+--------------------*/
+
+.tagcolud a {
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.tagcolud a:hover {
+    background: #333 none repeat scroll 0 0;
+    border-color: #333;
+    color: #fff;
+}

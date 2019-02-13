@@ -1,0 +1,147 @@
+/*----------------------------
+    3. WELCOME TEXT AREA
+------------------------------*/
+
+.welcome-area {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 18px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.welcome-mockup-bg {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.welcome-text h4 {
+    font-size: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.home-button {
+    padding-top: 50px;
+}
+
+.home-button a {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 16px rgba(173, 124, 255, 0.6);
+  box-shadow: 0 0 16px rgba(173, 124, 255, 0.6);
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-right: 15px;
+  overflow: hidden;
+  padding: 15px 30px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.home-button a:last-child{
+    margin-right: 0;
+}
+
+.home-button a::before, 
+.home-button a::after {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, right top, left top, from(#ad7cff), to(#d2adff)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to left, #ad7cff, #d2adff) repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+  z-index: -2;
+}
+.home-button a::after {
+  background: rgba(0, 0, 0, 0) -webkit-gradient(linear, left top, right top, from(#ad7cff), to(#d2adff)) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ad7cff, #d2adff) repeat scroll 0 0;
+  z-index: -1;
+  opacity: 0;
+}
+.home-button a:hover:after{
+    opacity: 1;
+}
+.home-button a:hover {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
+}
+
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .welcome-text h1 {
+        font-size: 48px;
+    }
+
+    .welcome-mockup img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .welcome-text {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .welcome-text {
+        text-align: center;
+    }
+
+    .welcome-text h1 {
+        font-size: 26px;
+    }
+
+    .welcome-area .download-button {
+        display: none;
+    }
+
+    .welcome-mockup {
+        display: none;
+    }
+
+    .download-button a:first-child {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .welcome-text h1 {
+        font-size: 32px;
+    }
+
+    .welcome-area .download-button {
+        display: block;
+    }
+
+    .download-button a:first-child {
+        margin-bottom: inherit;
+    }
+}

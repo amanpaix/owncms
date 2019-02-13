@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $title = "Ha ha";
+    return view('welcome')->with($title);
+});
+
+Route::get('/test', function () {
+    return view('elements/footer');
 });
