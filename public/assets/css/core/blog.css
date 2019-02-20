@@ -1,0 +1,375 @@
+/*-------------------------
+    BLOG POSTS
+--------------------------*/
+.post-details {
+  background: #fcfcfc none repeat scroll 0 0;
+  margin-top: -30px;
+  padding: 30px;
+}
+/*-------------------------
+    POST PAGE PAGINATION
+---------------------------*/
+
+.post-pagination {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.post-pagination ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-pagination ul li {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 45px;
+    margin-right: 5px;
+    overflow: hidden;
+    place-content: center;
+    text-align: center;
+    width: 45px;
+}
+
+.post-pagination ul li a {
+    display: block;
+    height: 45px;
+    padding-top: 10px;
+    width: 45px;
+}
+
+.post-pagination ul li a:hover {
+    background: #ad7cff none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+}
+
+/*--------------------------
+    SINGLE POST
+---------------------------*/
+.single-post ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-meta {
+    border-bottom: 1px solid #d3d3d3;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.post-meta ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-meta ul li {
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+}
+
+.post-meta ul li:last-child {
+    margin-right: 0;
+}
+
+.post-meta ul li::after {
+    content: "/";
+    display: inline-block;
+    margin-left: 8px;
+    opacity: 0.5;
+    position: relative;
+}
+
+.post-meta ul li:last-child::after {
+    display: none;
+}
+
+.post-meta ul li i {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.post-details blockquote {
+    background: #f3f3f3 none repeat scroll 0 0;
+    font-style: italic;
+    padding: 30px;
+}
+
+.post-details img {
+    margin: 20px 0;
+}
+
+/*-----------------*/
+
+.post-bootom-meta {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.post-share {
+    float: left;
+}
+
+.post-tags {
+    float: right;
+}
+
+.post-share h4,
+.post-share ul,
+.post-tags h4,
+.post-tags ul {
+    display: inline-block;
+}
+
+.post-share h4::after,
+.post-tags h4::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    margin-left: 9px;
+    opacity: 0.5;
+    position: relative;
+    top: -4px;
+    width: 20px;
+}
+
+.post-share h4,
+.post-tags h4 {
+    letter-spacing: 2px;
+}
+
+.post-share li,
+.post-tags li {
+    display: inline-block;
+}
+
+.post-share li a {
+    border: 1px solid;
+    border-radius: 50px;
+    display: block;
+    height: 35px;
+    margin-left: 10px;
+    padding-top: 4px;
+    text-align: center;
+    width: 35px;
+}
+
+.post-tags li a {
+    border: 1px solid;
+    border-radius: 50px;
+    display: block;
+    margin-left: 10px;
+    padding: 4px 14px;
+}
+
+/*----------------------------
+    SINGLE PAGE PAGINATION
+----------------------------*/
+
+.sigle-page-nvaigation {
+    margin-top: 50px;
+    position: relative;
+}
+
+.sigle-page-nvaigation::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 1px;
+    opacity: 0.3;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    z-index: -1;
+}
+
+.sigle-page-nvaigation ul {
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.sigle-page-nvaigation ul li {
+    overflow: hidden;
+}
+
+.sigle-page-nvaigation ul li:first-child {
+    float: left;
+}
+
+.sigle-page-nvaigation ul li:last-child {
+    float: right;
+}
+
+.sigle-page-nvaigation ul li a {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d1d1d1;
+    display: block;
+    height: 40px;
+    letter-spacing: 1px;
+    padding: 6px 20px;
+    text-transform: capitalize;
+}
+
+.sigle-page-nvaigation ul li a:hover {
+    background: #333 none repeat scroll 0 0;
+    border-color: #333;
+    color: #fff;
+}
+
+/*-------------------
+    COMMENTS
+--------------------*/
+
+/*.comment-area {
+    margin-top: 50px;
+}*/
+.all-comments {
+    margin-top: 50px;
+}
+
+.comment-list {
+    margin-top: 50px;
+}
+
+.comment-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single-comment {
+    margin-top: 50px;
+    padding-left: 100px;
+    position: relative;
+}
+
+.single-comment .single-comment {
+    margin-left: -70px;
+}
+
+.comment-author {
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 3px;
+    box-shadow: 0 0 3px;
+    height: 80px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 80px;
+}
+
+.comment-meta {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.comment-left-meta {
+    float: left;
+}
+
+.comment-reply {
+    float: right;
+}
+
+.comment-meta h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.comment-meta .comment-date {
+    font-size: 14px;
+}
+
+/*-------------------
+    FORM
+----------------------*/
+.comment-box {
+    margin-top: 50px;
+}
+
+.comment-form {
+    margin-top: 50px;
+}
+
+.comment-form input,
+.comment-form textarea {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    max-height: 140px;
+    padding: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+    border-color: #333;
+}
+
+.comment-form input[type="submit"] {
+    padding: 10px 20px;
+    width: auto;
+}
+
+.comment-form input[type="submit"]:hover {
+    background: #333 none repeat scroll 0 0;
+    border-color: #333;
+    color: #fff;
+}
+
+.comments-title,
+.reply-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 262px #fff;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.comments-title::before,
+.reply-title::before {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.comments-title span,
+.reply-title span {
+    background: #fff none repeat scroll 0 0;
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+}

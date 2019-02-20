@@ -12,9 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $title = "Ha ha";
+    return view('welcome')->with($title);
 });
 
+<<<<<<< HEAD
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+Route::get('/test', function () {
+    return view('elements/footer');
+});
+>>>>>>> c55bb7188d2ae358ae638ceaeb6d00e35804b18e
