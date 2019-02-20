@@ -1,6 +1,8 @@
-@extends('elements.newapp')
+@extends('layouts.newapp')
+
 @section('content')
-<section class="features-top-area padding-100-50" id="features">
+
+    <section class="features-top-area padding-100-50" id="features">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
